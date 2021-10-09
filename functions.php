@@ -294,8 +294,6 @@ function my_shortcode( $atts, $content = '' ) {
 }
 add_shortcode('highlight', 'highlight_shortcode');
 
-
-
 // カスタムフィールド設定時にrest APIの時の設定を表示Enable the option show in rest
 add_filter( 'acf/rest_api/field_settings/show_in_rest', '__return_true' );
 // Enable the option edit in rest
